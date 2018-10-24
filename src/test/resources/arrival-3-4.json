@@ -1,0 +1,49 @@
+{ "arrival":
+	{
+		"messageHeader": {
+			"sourceMessageID": "Source system message ID",
+			"testFlag": 0
+		},
+		"messageType": "3-4",
+		"eoid": "Economic Operator ID",
+		"eventTime": "18062217",
+		"fid": "Facility ID",
+		"productReturn": 0,
+		"uiType": 3,
+		"upUIs": [
+			{
+				"upUI": "UPUI(L)1"
+			},
+			{
+				"upUI": "UPUI(L)2"
+			},
+			{
+				"upUI": "UPUI(L)3"
+			},
+			{
+				"upUI": "UPUI(L)4"
+			},
+			{
+				"upUI": "UPUI(L)5"
+			}
+		],
+		"aUIs": [
+			{
+				"aUI": "AUI1"
+			},
+			{
+				"aUI": "AUI2"
+			},
+			{
+				"aUI": "AUI3"
+			},
+			{
+				"aUI": "AUI4"
+			},
+			{
+				"aUI": "AUI5"
+			}
+		],
+		"arrivalComment": "Comments by the reporting entity"
+	}
+}

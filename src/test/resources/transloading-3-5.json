@@ -1,0 +1,56 @@
+{ "transLoading":
+	{
+		"messageHeader": {
+			"sourceMessageID": "Source system message ID",
+			"testFlag": 0
+		},
+		"messageType": "3-5",
+		"eoid": "Economic Operator ID",
+		"eventTime": "18062217",
+		"destinationID1": 0,
+		"destinationID2": "Facility ID if destinationID1 = 1",
+		"destinationID3": "Facility’s full address: street, house number, postal code, city - if destinationID1 = 0",
+		"transportMode": 3,
+		"transportVehicle": "RX54YZD",
+		"transportCont1": 1,
+		"transportCont2": "001234560000000018",
+		"emcs": 1,
+		"emcsARC": "15GB0123456789ABCDEF0",
+		"uiType": 3,
+		"upUIs": [
+			{
+				"upUI": "UPUI(L)1"
+			},
+			{
+				"upUI": "UPUI(L)2"
+			},
+			{
+				"upUI": "UPUI(L)3"
+			},
+			{
+				"upUI": "UPUI(L)4"
+			},
+			{
+				"upUI": "UPUI(L)5"
+			}
+		],
+		"aUIs": [
+			{
+				"aUI": "AUI1"
+			},
+			{
+				"aUI": "AUI2"
+			},
+			{
+				"aUI": "AUI3"
+			},
+			{
+				"aUI": "AUI4"
+			},
+			{
+				"aUI": "AUI5"
+			}
+		],
+		"transLoadingComment": "Comments by the reporting entity"
+	}
+}

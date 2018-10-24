@@ -1,0 +1,45 @@
+{ "payment":
+	{
+		"messageHeader": {
+			"sourceMessageID": "Source system message ID",
+			"testFlag": 0
+		},
+		"messageType": "4-3",
+		"eoid": "Economic Operator ID",
+		"eventTime": "18062217",
+		"paymentDate": "2018-09-04",
+		"paymentType": 1,
+		"paymentAmount": 1.00,
+		"paymentCurrency": "EUR",
+		"paymentPayer1": 0,
+		"paymentPayer2": "Economic Operator ID - if paymentPayer1 = 1",
+		"payerName": "Payer's registered legal name - if paymentPayer1 = 0",
+		"payerAddress": "Payer's address - street name, house number, postal code and city - if paymentPayer1 = 0",
+		"payerCountryReg": "Payer's country of registration - if paymentPayer1 = 0",
+		"payerTaxN": "Payer's tax registration number - if paymentPayer1 = 0",
+		"paymentRecipient": "Economic Operator ID",
+		"paymentInvoice": 1,
+		"invoicePaid": "1234567890",
+		"uiType": 3,
+		"upUIs": [
+			{
+				"upUI": "UPUI(L)1"
+			},
+			{
+				"upUI": "UPUI(L)2"
+			},
+			{
+				"upUI": "UPUI(L)3"
+			}
+		],
+		"aUIs": [
+			{
+				"aUI": "AUI1"
+			},
+			{
+				"aUI": "AUI2"
+			}
+		],
+		"paymentComment": "Payment made by Arpita"
+	}
+}

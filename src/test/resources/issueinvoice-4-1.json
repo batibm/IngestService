@@ -1,0 +1,73 @@
+{ "invoice":
+	{
+		"messageHeader": {
+			"sourceMessageID": "Source system message ID",
+			"testFlag": 0
+		},
+		"messageType": "4-1",
+		"eoid": "Economic Operator ID",
+		"eventTime": "18062217",
+		"invoiceType1": 3,
+		"invoiceType2": "Description of the other type of invoice - if invoiceType1 = 3",
+		"invoiceNumber": "1234567890",
+		"invoiceDate": "2018-06-27",
+		"invoiceSeller": "Economic Operator ID",
+		"invoiceBuyer1": 1,
+		"invoiceBuyer2": "Economic Operator ID - if invoiceBuyer1 = 1",
+		"buyerName": "Buyer's registered legal name - if invoiceBuyer1 = 0",
+		"buyerAddress": "Buyer's address - street name, house number, postal code, city - if invoiceBuyer1 = 0",
+		"buyerCountryReg": "Buyer's country of registration - if invoiceBuyer1 = 0",
+		"buyerTaxN": "Buyer's tax registration number - if invoiceBuyer1 = 0",
+		"firstSellerEU": 1,
+		"productItems": [
+			{
+				"productItem1": "02565-16-00230",
+				"productItem2": "00012345600012",
+				"productPrice": 100.00
+			},
+			{
+				"productItem1": "02565-16-00231",
+				"productItem2": "00012345600014",
+				"productPrice": 50.50
+			},
+			{
+				"productItem1": "02565-16-00232",
+				"productItem2": "00012345600016",
+				"productPrice": 8.73
+			},
+			{
+				"productItem1": "02565-16-00233",
+				"productItem2": "00012345600018",
+				"productPrice": 9.60
+			},
+			{
+				"productItem1": "02565-16-00234",
+				"productItem2": "00012345600020",
+				"productPrice": 5.88
+			}
+		],
+		"invoiceNet": 74.71,
+		"invoiceCurrency": "EUR",
+		"uiType": 3,
+		"upUIs": [
+			{
+				"upUI": "UPUI(L)1"
+			},
+			{
+				"upUI": "UPUI(L)2"
+			},
+			{
+				"upUI": "UPUI(L)3"
+			}
+		],
+		"aUIs": [
+			{
+				"aUI": "AUI1"
+			},
+			{
+				"aUI": "AUI2"
+			}
+		],
+		"invoiceComment": "Comments by the reporting entity"
+	}
+}

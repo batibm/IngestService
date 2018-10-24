@@ -1,0 +1,49 @@
+{ "deactivateUIs":
+	{
+		"messageHeader": {
+			"sourceMessageID": "Source system message ID",
+			"testFlag": 0,
+			"messageHash": "f8006785668bcd21ff3466a0da206029c834a0abad60e20270a792eaab1eda76"
+		},
+		"messageType": "2-3",
+		"eoid": "Economic Operator ID",
+		"deactType": 2,
+		"deactReason1": 6,
+		"deactReason2": "Product enjoyed on coffee break",
+		"deactReason3": "The workers were chillin",
+		"deactUPUIs": [
+			{
+				"deactUPUI": "UPUI1"
+			},
+			{
+				"deactUPUI": "UPUI2"
+			},
+			{
+				"deactUPUI": "UPUI3"
+			},
+			{
+				"deactUPUI": "UPUI4"
+			},
+			{
+				"deactUPUI": "UPUI5"
+			}
+		],
+		"deactAUIs": [
+			{
+				"deactAUI": "AUI1"
+			},
+			{
+				"deactAUI": "AUI2"
+			},
+			{
+				"deactAUI": "AUI3"
+			},
+			{
+				"deactAUI": "AUI4"
+			},
+			{
+				"deactAUI": "AUI5"
+			}
+		]
+	}
+}

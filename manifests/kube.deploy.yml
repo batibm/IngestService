@@ -1,0 +1,37 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: "ingest-service-deployment"
+spec:
+  # this replicas value is default
+  # modify it according to your case
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: "ingest-service-selector"
+    spec:
+      hostAliases:
+        - ip: "10.144.31.140"
+          hostnames:
+          - "mil-dev-kaf-001"
+        - ip: "10.144.31.141"
+          hostnames:
+          - "mil-dev-kaf-002"
+        - ip: "10.144.31.142"
+          hostnames:
+          - "mil-dev-kaf-003"
+      imagePullSecrets:
+        - name: regcred
+      containers:
+        - name: ingest-service
+          image: gbs-bat-eutpd-docker-local.artifactory.swg-devops.com/ingest-service:latest
+          readinessProbe:
+            httpGet:
+             path: /greeting
+             port: 8081
+            initialDelaySeconds: 70
+        # resources:
+        #   requests:
+        #     cpu: 100m
+        #     memory: 100Mi

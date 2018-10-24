@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+    ingress.kubernetes.io/secure-backends: "false"
+  name: ingest-service-ingress-with-wc-tls-lb
+  namespace: bat-dev
+spec:
+  rules:
+  - host: ingest-service.mil-dev-lbr-001.dev
+    http:
+      paths:
+      - backend:
+          serviceName: ingest-service
+          servicePort: 8081
+        path: /
+  tls:
+  - hosts:
+    - ingest-service.mil-dev-lbr-001.dev
+    secretName: wildcard-secret

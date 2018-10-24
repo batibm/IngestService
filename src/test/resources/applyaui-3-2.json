@@ -1,0 +1,49 @@
+{ "applyAUI":
+	{
+		"messageHeader": {
+			"sourceMessageID": "Source system message ID",
+			"testFlag": 0
+		},
+		"messageType": "3-2",
+		"eoid": "Economic Operator ID",
+		"fid": "Facility ID",
+		"eventTime": "18062217",
+		"aUI": "AUI",
+		"aggregationType": 3,
+		"aggregatedUIs1s": [
+			{
+				"aggregatedUIs1": "UPUI(L)1"
+			},
+			{
+				"aggregatedUIs1": "UPUI(L)2"
+			},
+			{
+				"aggregatedUIs1": "UPUI(L)3"
+			},
+			{
+				"aggregatedUIs1": "UPUI(L)4"
+			},
+			{
+				"aggregatedUIs1": "UPUI(L)5"
+			}
+		],
+		"aggregatedUIs2s": [
+			{
+				"aggregatedUIs2": "AUI1"
+			},
+			{
+				"aggregatedUIs2": "AUI2"
+			},
+			{
+				"aggregatedUIs2": "AUI3"
+			},
+			{
+				"aggregatedUIs2": "AUI4"
+			},
+			{
+				"aggregatedUIs2": "AUI5"
+			}
+		],
+		"aUIComment": "Optional comments by the reporting entity"
+	}
+}

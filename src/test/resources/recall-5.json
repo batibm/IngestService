@@ -1,0 +1,14 @@
+{ "recall":
+	{
+		"messageHeader": {
+			"sourceMessageID": "Source system message ID",
+			"testFlag": 0
+		},
+		"messageType": "5",
+		"eoid": "Economic Operator ID",
+		"recallCode": "64ca8ec3-b921-4822-aeda-1bd675811551",
+		"recallReason1": 3,
+		"recallReason2": "Description of the reason for the recalling of the original message - if recallReason1 = 3",
+		"recallReason3": "Any additional explanations on the reason for the recalling the original message"
+	}
+}

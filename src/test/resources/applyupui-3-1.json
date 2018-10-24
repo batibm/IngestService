@@ -1,0 +1,46 @@
+{ "applyUPUI":
+	{
+		"messageHeader": {
+			"sourceMessageID": "Source system message ID",
+			"testFlag": 0
+		},
+		"messageType": "3-1",
+		"eoid": "Economic Operator ID",
+		"fid": "Facility ID",
+		"upUI1s": [
+			{
+				"upUI1": "UPUI(L)1"
+			},
+			{
+				"upUI1": "UPUI(L)2"
+			},
+			{
+				"upUI1": "UPUI(L)3"
+			},
+			{
+				"upUI1": "UPUI(L)4"
+			},
+			{
+				"upUI1": "UPUI(L)5"
+			}
+		],
+		"upUI2s": [
+			{
+				"upUI2": "UPUI(s)1"
+			},
+			{
+				"upUI2": "UPUI(s)2"
+			},
+			{
+				"upUI2": "UPUI(s)3"
+			},
+			{
+				"upUI2": "UPUI(s)4"
+			},
+			{
+				"upUI2": "UPUI(s)5"
+			}
+		],
+		"upUIComment": "Optional comments by the reporting entity"
+	}
+}

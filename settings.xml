@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <servers>
+    <server>
+      <username>sushmitb@in.ibm.com</username>
+      <password>AKCp5bBNHtLaLBrvqKohAbrcRLT94ckbYPQXZ3cMQJWtXaZZCd7RouixVkhmPnbBKxvja9zrW</password>
+      <id>central</id>
+    </server>
+    <server>
+      <username>sushmitb@in.ibm.com</username>
+      <password>AKCp5bBNHtLaLBrvqKohAbrcRLT94ckbYPQXZ3cMQJWtXaZZCd7RouixVkhmPnbBKxvja9zrW</password>
+      <id>snapshots</id>
+    </server>
+  </servers>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory-dal10-01-node-07.swg-devops.com-releases</name>
+        <url>https://na.artifactory.swg-devops.com:443/artifactory/gbs-bat-eutpd-maven-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory-dal10-01-node-07.swg-devops.com-snapshots</name>
+        <url>https://na.artifactory.swg-devops.com:443/artifactory/gbs-bat-eutpd-maven-local</url>
+    </snapshotRepository>
+</distributionManagement>
+</settings>

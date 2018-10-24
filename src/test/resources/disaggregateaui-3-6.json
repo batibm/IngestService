@@ -1,0 +1,14 @@
+{ "disaggregateAUI":
+	{
+		"messageHeader": {
+			"sourceMessageID": "Source system message ID",
+			"testFlag": 0
+		},
+		"messageType": "3-6",
+		"eoid": "Economic Operator ID",
+		"fid": "Facility ID",
+		"eventTime": "18062217",
+		"aUI": "AUI",
+		"disaUIComment": "Optional comments by the reporting entity"
+	}
+}
